@@ -1,0 +1,28 @@
+schema-version = "1.11.0"
+
+[install]
+cosign.pkg-path = "cosign"
+go-task.pkg-path = "go-task"
+jq.pkg-path = "jq"
+oras.pkg-path = "oras"
+arconia-cli-flake.flake = "github:thomasvitale/arconia-cli-flake"
+
+[vars]
+FLOX_DISABLE_METRICS = "true"
+
+[hook]
+
+[profile]
+
+[services]
+
+[include]
+
+[build]
+
+[options]
+systems = [
+  "aarch64-darwin",
+  "aarch64-linux",
+  "x86_64-linux",
+]

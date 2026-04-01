@@ -1,0 +1,49 @@
+# https://taskfile.dev
+
+version: '3'
+
+vars:
+  REGISTRY: ghcr.io
+  SKILLS_BASE_REPOSITORY: arconia-io/agent-skills
+  VERSION: '{{.VERSION | default "latest"}}'
+
+tasks:
+  default:
+    cmds:
+      - task --list
+    silent: true
+
+  skills:publish:
+    desc: Publish the Skills artifacts to the registry
+    cmds:
+      - |
+        arconia skills push --all \
+          --ref {{.REGISTRY}}/{{.SKILLS_BASE_REPOSITORY}} \
+          --path skills \
+          --tag {{.VERSION}} \
+          --output-report publish-report.json
+
+  skills:sign:
+    desc: Sign the Skills artifacts with Cosign
+    cmds:
+      - |
+        jq -r '.skills[] | "\(.ref | split(":")[0])@\(.digest)"' publish-report.json | while read -r artifact; do
+          cosign sign --yes "$artifact"
+        done
+
+  catalog:publish:
+    desc: Publish the Skills Catalog artifact to the registry
+    cmds:
+      - arconia skills catalog push \
+          --name arconia-skills-catalog \
+          --ref {{.REGISTRY}}/{{.SKILLS_BASE_REPOSITORY}}/catalog \
+          --tag {{.VERSION}} \
+          --from-report publish-report.json
+
+  catalog:sign:
+    desc: Sign the Skills Catalog artifacts with Cosign
+    vars:
+      OCI_DIGEST:
+        sh: oras resolve {{.REGISTRY}}/{{.SKILLS_BASE_REPOSITORY}}/catalog:{{.VERSION}}
+    cmds:
+      - cosign sign --yes {{.REGISTRY}}/{{.SKILLS_BASE_REPOSITORY}}/catalog@{{.OCI_DIGEST}}
