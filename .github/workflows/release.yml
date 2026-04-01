@@ -6,7 +6,6 @@ on:
 env:
   FLOX_DISABLE_METRICS: true
   REGISTRY: ghcr.io
-  SKILLS_BASE_REPOSITORY: arconia-io/agent-skills
   VERSION: 0.0.1
 
 permissions:
