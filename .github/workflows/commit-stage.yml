@@ -1,30 +1,13 @@
 name: Commit Stage
 
 on:
-  push:
-    branches:
-      - main
-    paths-ignore:
-      - '.editorconfig'
-      - '.gitattributes'
-      - '.gitignore'
-      - '.sdkmanrc'
-      - '*.adoc'
-      - '*.png'
-      - '*.md'
-      - '*.txt'
-      - 'catalog-info.yaml'
-      - 'docs/**'
-      - '.github/ISSUE_TEMPLATE/**'
-      - '.github/*.md'
-      - '.github/*.yml'
-      - '.github/*.yaml'
+  workflow_dispatch:
 
 env:
   FLOX_DISABLE_METRICS: true
   REGISTRY: ghcr.io
   SKILLS_BASE_REPOSITORY: arconia-io/agent-skills
-  VERSION: ${{ github.sha }}
+  VERSION: 0.0.1
 
 permissions:
   contents: read
