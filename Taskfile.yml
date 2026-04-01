@@ -21,6 +21,7 @@ tasks:
           --ref {{.REGISTRY}}/{{.SKILLS_BASE_REPOSITORY}} \
           --path skills \
           --tag {{.VERSION}} \
+          --additional-tag latest \
           --output-report publish-skills-report.json
 
   skills:sign:
@@ -39,6 +40,7 @@ tasks:
           --name arconia-skills-catalog \
           --ref {{.REGISTRY}}/{{.SKILLS_BASE_REPOSITORY}}/catalog \
           --tag {{.VERSION}} \
+          --additional-tag latest \
           --from-report publish-skills-report.json \
           --output-report publish-skills-catalog-report.json
 
