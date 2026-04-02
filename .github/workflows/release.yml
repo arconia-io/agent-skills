@@ -6,7 +6,7 @@ on:
 env:
   FLOX_DISABLE_METRICS: true
   REGISTRY: ghcr.io
-  VERSION: 0.0.2
+  VERSION: 0.0.3
 
 permissions:
   contents: read
@@ -46,12 +46,12 @@ jobs:
         with:
           command: task skills:sign VERSION=${{ env.VERSION }}
 
-      - name: Build and publish Skills Catalog OCI artifact
+      - name: Build and publish Skills Collection OCI artifact
         uses: flox/activate-action@410568008895a0f2e09a34bbd9523f8ef1f2d292 # v1.1.0
         with:
-          command: task catalog:publish VERSION=${{ env.VERSION }}
+          command: task collection:publish VERSION=${{ env.VERSION }}
 
-      - name: Sign Skills Catalog OCI artifact
+      - name: Sign Skills Collection OCI artifact
         uses: flox/activate-action@410568008895a0f2e09a34bbd9523f8ef1f2d292 # v1.1.0
         with:
-          command: task catalog:sign VERSION=${{ env.VERSION }}
+          command: task collection:sign VERSION=${{ env.VERSION }}

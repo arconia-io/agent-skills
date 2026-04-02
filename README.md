@@ -10,7 +10,7 @@ The [Arconia CLI](https://docs.arconia.io/arconia-cli/latest/) is required to us
 
 The Skills included in this repository follow the [Agent Skills OCI Artifacts Specification](https://github.com/ThomasVitale/agents-skills-oci-artifacts-spec) proposed by Thomas Vitale, Arconia's founder.
 
-Each Skill is published as an OCI artifact to GitHub Container Registry. The Skills Catalog is also published as an OCI artifact that bundles all the individual Skills.
+Each Skill is published as an OCI artifact to GitHub Container Registry. The Skills Collection is also published as an OCI artifact that bundles all the individual Skills.
 
 You can install Skills individually by referencing their OCI coordinates. For example, to install the `arconia-update` skill:
 
@@ -32,25 +32,25 @@ If you'd like to check for updates to your installed Skills, run:
 arconia skills update
 ```
 
-## Skills Catalog
+## Skills Collection
 
-All the Skills in this repository are also bundled together in a Skills Catalog published as an OCI artifact.
+All the Skills in this repository are also bundled together in a Skills Collection published as an OCI artifact.
 
-You can browse all available Skills in the Skills Catalog without having to install them first. Add the Skills Catalog to your project:
-
-```shell
-arconia skills catalog add \
-  --name arconia-skills-catalog \
-  --ref ghcr.io/arconia-io/agent-skills/catalog
-```
-
-Then, list all the Skills in the catalog:
+You can browse all available Skills in the Skills Collection without having to install them first. Add the Skills Collection to your project:
 
 ```shell
-arconia skills catalog list
+arconia skills collection add \
+  --name arconia-skills-collection \
+  --ref ghcr.io/arconia-io/agent-skills/collection
 ```
 
-If you'd like to install a Skill from the catalog, just reference it by name:
+Then, list all the Skills in the collection:
+
+```shell
+arconia skills collection list
+```
+
+If you'd like to install a Skill from the collection, just reference it by name:
 
 ```shell
 arconia skills add --name arconia-dev-services

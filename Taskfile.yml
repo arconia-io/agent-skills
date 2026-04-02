@@ -32,22 +32,22 @@ tasks:
           cosign sign --yes "$artifact"
         done
 
-  catalog:publish:
-    desc: Publish the Skills Catalog artifact to the registry
+  collection:publish:
+    desc: Publish the Skills Collection artifact to the registry
     cmds:
       - |
-        arconia skills catalog push \
-          --name arconia-skills-catalog \
-          --ref {{.REGISTRY}}/{{.SKILLS_BASE_REPOSITORY}}/catalog \
+        arconia skills collection push \
+          --name arconia-skills-collection \
+          --ref {{.REGISTRY}}/{{.SKILLS_BASE_REPOSITORY}}/collection \
           --tag {{.VERSION}} \
           --additional-tag latest \
           --from-report publish-skills-report.json \
-          --output-report publish-skills-catalog-report.json
+          --output-report publish-skills-collection-report.json
 
-  catalog:sign:
-    desc: Sign the Skills Catalog artifacts with Cosign
+  collection:sign:
+    desc: Sign the Skills Collection artifacts with Cosign
     cmds:
       - |
-        jq -r '.artifacts[] | "\(.ref | split(":")[0])@\(.digest)"' publish-skills-catalog-report.json | while read -r artifact; do
+        jq -r '.artifacts[] | "\(.ref | split(":")[0])@\(.digest)"' publish-skills-collection-report.json | while read -r artifact; do
           cosign sign --yes "$artifact"
         done

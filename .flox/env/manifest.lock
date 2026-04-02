@@ -402,12 +402,12 @@
     },
     {
       "install_id": "arconia-cli-flake",
-      "locked-url": "github:thomasvitale/arconia-cli-flake/f147a22f6594642b6b5fa1f9d02d6ed81448b344?narHash=sha256-5Y9R5WvvOiMuRLwPI/pTGpLYr5n0w3nCnSAkvwmIUsQ%3D",
+      "locked-url": "github:thomasvitale/arconia-cli-flake/7b58333d469a9d6235b9f2cbc7ae908ba934ac9d?narHash=sha256-ngbZAb09lrJnqGDxW6CKe1ySa44v9SKCE7Gs9bLHILg%3D",
       "flake-description": "Arconia CLI",
       "locked-flake-attr-path": "packages.aarch64-darwin.default",
-      "derivation": "/nix/store/7ljagbshx80xayx0lphqmxknmrnwvy56-arconia-0.12.0.drv",
+      "derivation": "/nix/store/barkfhmkqfay842i4whspas5l03shxam-arconia-0.12.1.drv",
       "outputs": {
-        "out": "/nix/store/72nkj98gygfkmkl8r02fn5dvzc0wm896-arconia-0.12.0"
+        "out": "/nix/store/80danyvpv0v6klmvq0q6ahn07qv3kicm-arconia-0.12.1"
       },
       "output-names": [
         "out"
@@ -418,21 +418,21 @@
       "requested-outputs-to-install": [],
       "package-system": "aarch64-darwin",
       "system": "aarch64-darwin",
-      "name": "arconia-0.12.0",
+      "name": "arconia-0.12.1",
       "pname": "arconia",
-      "version": "0.12.0",
+      "version": "0.12.1",
       "broken": false,
       "unfree": false,
       "priority": 5
     },
     {
       "install_id": "arconia-cli-flake",
-      "locked-url": "github:thomasvitale/arconia-cli-flake/f147a22f6594642b6b5fa1f9d02d6ed81448b344?narHash=sha256-5Y9R5WvvOiMuRLwPI/pTGpLYr5n0w3nCnSAkvwmIUsQ%3D",
+      "locked-url": "github:thomasvitale/arconia-cli-flake/7b58333d469a9d6235b9f2cbc7ae908ba934ac9d?narHash=sha256-ngbZAb09lrJnqGDxW6CKe1ySa44v9SKCE7Gs9bLHILg%3D",
       "flake-description": "Arconia CLI",
       "locked-flake-attr-path": "packages.aarch64-linux.default",
-      "derivation": "/nix/store/1wig88gq5avby0vkq0dll92iyi5aj0s2-arconia-0.12.0.drv",
+      "derivation": "/nix/store/fggh92rrkjbv7qfyc3p8q76aj39lxscn-arconia-0.12.1.drv",
       "outputs": {
-        "out": "/nix/store/zl1br65ck72hx2ng16c7lj1m36lfblh9-arconia-0.12.0"
+        "out": "/nix/store/7nr3qprx02x7rsr1w7ik5fwhh62b2zgc-arconia-0.12.1"
       },
       "output-names": [
         "out"
@@ -443,21 +443,21 @@
       "requested-outputs-to-install": [],
       "package-system": "aarch64-linux",
       "system": "aarch64-linux",
-      "name": "arconia-0.12.0",
+      "name": "arconia-0.12.1",
       "pname": "arconia",
-      "version": "0.12.0",
+      "version": "0.12.1",
       "broken": false,
       "unfree": false,
       "priority": 5
     },
     {
       "install_id": "arconia-cli-flake",
-      "locked-url": "github:thomasvitale/arconia-cli-flake/f147a22f6594642b6b5fa1f9d02d6ed81448b344?narHash=sha256-5Y9R5WvvOiMuRLwPI/pTGpLYr5n0w3nCnSAkvwmIUsQ%3D",
+      "locked-url": "github:thomasvitale/arconia-cli-flake/7b58333d469a9d6235b9f2cbc7ae908ba934ac9d?narHash=sha256-ngbZAb09lrJnqGDxW6CKe1ySa44v9SKCE7Gs9bLHILg%3D",
       "flake-description": "Arconia CLI",
       "locked-flake-attr-path": "packages.x86_64-linux.default",
-      "derivation": "/nix/store/58gf7fh1kc54irrwknrgc5h75asyqm16-arconia-0.12.0.drv",
+      "derivation": "/nix/store/3fg1i5xwgwq0v4f4w724rcfqd1d2zzkl-arconia-0.12.1.drv",
       "outputs": {
-        "out": "/nix/store/88g3m6j56sfd4m3hgpzf73sb4kd0shhk-arconia-0.12.0"
+        "out": "/nix/store/81bs7nfawcavf89x5aq5mb1mz9200bip-arconia-0.12.1"
       },
       "output-names": [
         "out"
@@ -468,9 +468,9 @@
       "requested-outputs-to-install": [],
       "package-system": "x86_64-linux",
       "system": "x86_64-linux",
-      "name": "arconia-0.12.0",
+      "name": "arconia-0.12.1",
       "pname": "arconia",
-      "version": "0.12.0",
+      "version": "0.12.1",
       "broken": false,
       "unfree": false,
       "priority": 5
