@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="arconia-logo.png" alt="Arconia" width="200" />
+</p>
+
 <h1 align="center">Agent Skills</h1>
 
 <p align="center">
