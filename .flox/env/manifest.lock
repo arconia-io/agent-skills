@@ -36,27 +36,27 @@
     {
       "attr_path": "cosign",
       "broken": false,
-      "derivation": "/nix/store/2sqz4vl85idb6mqbwwk1b8i27nf96d4z-cosign-3.0.5.drv",
+      "derivation": "/nix/store/sc8ls53y44qjx0q37pa58363xpyg7lnh-cosign-3.0.6.drv",
       "description": "Container Signing CLI with support for ephemeral keys and Sigstore signing",
       "install_id": "cosign",
       "license": "Apache-2.0",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=8110df5ad7abf5d4c0f6fb0f8f978390e77f9685",
-      "name": "cosign-3.0.5",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=4c1018dae018162ec878d42fec712642d214fdfa",
+      "name": "cosign-3.0.6",
       "pname": "cosign",
-      "rev": "8110df5ad7abf5d4c0f6fb0f8f978390e77f9685",
-      "rev_count": 971119,
-      "rev_date": "2026-03-28T14:48:23Z",
-      "scrape_date": "2026-03-30T03:37:20.049453Z",
+      "rev": "4c1018dae018162ec878d42fec712642d214fdfa",
+      "rev_count": 977467,
+      "rev_date": "2026-04-09T04:48:10Z",
+      "scrape_date": "2026-04-11T06:03:33.467780Z",
       "stabilities": [
         "unstable"
       ],
       "unfree": false,
-      "version": "3.0.5",
+      "version": "3.0.6",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/h6agpnp5h4k2vg2mzdh85gr2jg708vg1-cosign-3.0.5"
+        "out": "/nix/store/3sl3hq2nv033zqb1gp1yq4rri75l4sal-cosign-3.0.6"
       },
       "system": "aarch64-darwin",
       "group": "toplevel",
@@ -65,27 +65,27 @@
     {
       "attr_path": "cosign",
       "broken": false,
-      "derivation": "/nix/store/r739p8090xrsir6wp4fw4i62dckqd7p9-cosign-3.0.5.drv",
+      "derivation": "/nix/store/060q3vc0fykjfxnmc20zskd8wwfaac3g-cosign-3.0.6.drv",
       "description": "Container Signing CLI with support for ephemeral keys and Sigstore signing",
       "install_id": "cosign",
       "license": "Apache-2.0",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=8110df5ad7abf5d4c0f6fb0f8f978390e77f9685",
-      "name": "cosign-3.0.5",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=4c1018dae018162ec878d42fec712642d214fdfa",
+      "name": "cosign-3.0.6",
       "pname": "cosign",
-      "rev": "8110df5ad7abf5d4c0f6fb0f8f978390e77f9685",
-      "rev_count": 971119,
-      "rev_date": "2026-03-28T14:48:23Z",
-      "scrape_date": "2026-03-30T04:09:54.443959Z",
+      "rev": "4c1018dae018162ec878d42fec712642d214fdfa",
+      "rev_count": 977467,
+      "rev_date": "2026-04-09T04:48:10Z",
+      "scrape_date": "2026-04-11T06:34:59.073437Z",
       "stabilities": [
         "unstable"
       ],
       "unfree": false,
-      "version": "3.0.5",
+      "version": "3.0.6",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/pz3z65y42dv26gladyyqimdqcfarsa8y-cosign-3.0.5"
+        "out": "/nix/store/23xih77yd6ibf47fszpwypb7xp56rv40-cosign-3.0.6"
       },
       "system": "aarch64-linux",
       "group": "toplevel",
@@ -94,27 +94,27 @@
     {
       "attr_path": "cosign",
       "broken": false,
-      "derivation": "/nix/store/wqhm0558j6ka768l44szjjq2l5jf8yzh-cosign-3.0.5.drv",
+      "derivation": "/nix/store/sy7cxpjk75rigr4j1s7n5hpnvwyn8r04-cosign-3.0.6.drv",
       "description": "Container Signing CLI with support for ephemeral keys and Sigstore signing",
       "install_id": "cosign",
       "license": "Apache-2.0",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=8110df5ad7abf5d4c0f6fb0f8f978390e77f9685",
-      "name": "cosign-3.0.5",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=4c1018dae018162ec878d42fec712642d214fdfa",
+      "name": "cosign-3.0.6",
       "pname": "cosign",
-      "rev": "8110df5ad7abf5d4c0f6fb0f8f978390e77f9685",
-      "rev_count": 971119,
-      "rev_date": "2026-03-28T14:48:23Z",
-      "scrape_date": "2026-03-30T05:16:14.798186Z",
+      "rev": "4c1018dae018162ec878d42fec712642d214fdfa",
+      "rev_count": 977467,
+      "rev_date": "2026-04-09T04:48:10Z",
+      "scrape_date": "2026-04-11T07:39:13.216927Z",
       "stabilities": [
         "unstable"
       ],
       "unfree": false,
-      "version": "3.0.5",
+      "version": "3.0.6",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/5fs3r1s68y53pmi53hizak5ik9pkvgxc-cosign-3.0.5"
+        "out": "/nix/store/mhkdza8xk1jr641ih3p53wf20czs04d2-cosign-3.0.6"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
@@ -127,13 +127,13 @@
       "description": "Task runner / simpler Make alternative written in Go",
       "install_id": "go-task",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=8110df5ad7abf5d4c0f6fb0f8f978390e77f9685",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=4c1018dae018162ec878d42fec712642d214fdfa",
       "name": "go-task-3.48.0",
       "pname": "go-task",
-      "rev": "8110df5ad7abf5d4c0f6fb0f8f978390e77f9685",
-      "rev_count": 971119,
-      "rev_date": "2026-03-28T14:48:23Z",
-      "scrape_date": "2026-03-30T03:37:20.945260Z",
+      "rev": "4c1018dae018162ec878d42fec712642d214fdfa",
+      "rev_count": 977467,
+      "rev_date": "2026-04-09T04:48:10Z",
+      "scrape_date": "2026-04-11T06:03:34.376670Z",
       "stabilities": [
         "unstable"
       ],
@@ -156,13 +156,13 @@
       "description": "Task runner / simpler Make alternative written in Go",
       "install_id": "go-task",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=8110df5ad7abf5d4c0f6fb0f8f978390e77f9685",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=4c1018dae018162ec878d42fec712642d214fdfa",
       "name": "go-task-3.48.0",
       "pname": "go-task",
-      "rev": "8110df5ad7abf5d4c0f6fb0f8f978390e77f9685",
-      "rev_count": 971119,
-      "rev_date": "2026-03-28T14:48:23Z",
-      "scrape_date": "2026-03-30T04:09:56.343412Z",
+      "rev": "4c1018dae018162ec878d42fec712642d214fdfa",
+      "rev_count": 977467,
+      "rev_date": "2026-04-09T04:48:10Z",
+      "scrape_date": "2026-04-11T06:35:00.986483Z",
       "stabilities": [
         "unstable"
       ],
@@ -185,13 +185,13 @@
       "description": "Task runner / simpler Make alternative written in Go",
       "install_id": "go-task",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=8110df5ad7abf5d4c0f6fb0f8f978390e77f9685",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=4c1018dae018162ec878d42fec712642d214fdfa",
       "name": "go-task-3.48.0",
       "pname": "go-task",
-      "rev": "8110df5ad7abf5d4c0f6fb0f8f978390e77f9685",
-      "rev_count": 971119,
-      "rev_date": "2026-03-28T14:48:23Z",
-      "scrape_date": "2026-03-30T05:16:16.926209Z",
+      "rev": "4c1018dae018162ec878d42fec712642d214fdfa",
+      "rev_count": 977467,
+      "rev_date": "2026-04-09T04:48:10Z",
+      "scrape_date": "2026-04-11T07:39:15.248586Z",
       "stabilities": [
         "unstable"
       ],
@@ -214,13 +214,13 @@
       "description": "Lightweight and flexible command-line JSON processor",
       "install_id": "jq",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=8110df5ad7abf5d4c0f6fb0f8f978390e77f9685",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=4c1018dae018162ec878d42fec712642d214fdfa",
       "name": "jq-1.8.1",
       "pname": "jq",
-      "rev": "8110df5ad7abf5d4c0f6fb0f8f978390e77f9685",
-      "rev_count": 971119,
-      "rev_date": "2026-03-28T14:48:23Z",
-      "scrape_date": "2026-03-30T03:37:36.066859Z",
+      "rev": "4c1018dae018162ec878d42fec712642d214fdfa",
+      "rev_count": 977467,
+      "rev_date": "2026-04-09T04:48:10Z",
+      "scrape_date": "2026-04-11T06:03:49.950832Z",
       "stabilities": [
         "unstable"
       ],
@@ -229,6 +229,8 @@
       "outputs_to_install": [
         "bin",
         "bin",
+        "bin",
+        "man",
         "man",
         "man"
       ],
@@ -250,13 +252,13 @@
       "description": "Lightweight and flexible command-line JSON processor",
       "install_id": "jq",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=8110df5ad7abf5d4c0f6fb0f8f978390e77f9685",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=4c1018dae018162ec878d42fec712642d214fdfa",
       "name": "jq-1.8.1",
       "pname": "jq",
-      "rev": "8110df5ad7abf5d4c0f6fb0f8f978390e77f9685",
-      "rev_count": 971119,
-      "rev_date": "2026-03-28T14:48:23Z",
-      "scrape_date": "2026-03-30T04:10:16.311747Z",
+      "rev": "4c1018dae018162ec878d42fec712642d214fdfa",
+      "rev_count": 977467,
+      "rev_date": "2026-04-09T04:48:10Z",
+      "scrape_date": "2026-04-11T06:35:21.237723Z",
       "stabilities": [
         "unstable"
       ],
@@ -265,6 +267,8 @@
       "outputs_to_install": [
         "bin",
         "bin",
+        "bin",
+        "man",
         "man"
       ],
       "outputs": {
@@ -285,19 +289,20 @@
       "description": "Lightweight and flexible command-line JSON processor",
       "install_id": "jq",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=8110df5ad7abf5d4c0f6fb0f8f978390e77f9685",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=4c1018dae018162ec878d42fec712642d214fdfa",
       "name": "jq-1.8.1",
       "pname": "jq",
-      "rev": "8110df5ad7abf5d4c0f6fb0f8f978390e77f9685",
-      "rev_count": 971119,
-      "rev_date": "2026-03-28T14:48:23Z",
-      "scrape_date": "2026-03-30T05:16:37.244489Z",
+      "rev": "4c1018dae018162ec878d42fec712642d214fdfa",
+      "rev_count": 977467,
+      "rev_date": "2026-04-09T04:48:10Z",
+      "scrape_date": "2026-04-11T07:39:35.046735Z",
       "stabilities": [
         "unstable"
       ],
       "unfree": false,
       "version": "1.8.1",
       "outputs_to_install": [
+        "bin",
         "bin",
         "bin",
         "man"
@@ -320,13 +325,13 @@
       "description": "Distribute artifacts across OCI registries with ease",
       "install_id": "oras",
       "license": "Apache-2.0",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=8110df5ad7abf5d4c0f6fb0f8f978390e77f9685",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=4c1018dae018162ec878d42fec712642d214fdfa",
       "name": "oras-1.3.0",
       "pname": "oras",
-      "rev": "8110df5ad7abf5d4c0f6fb0f8f978390e77f9685",
-      "rev_count": 971119,
-      "rev_date": "2026-03-28T14:48:23Z",
-      "scrape_date": "2026-03-30T03:37:49.330274Z",
+      "rev": "4c1018dae018162ec878d42fec712642d214fdfa",
+      "rev_count": 977467,
+      "rev_date": "2026-04-09T04:48:10Z",
+      "scrape_date": "2026-04-11T06:04:03.169244Z",
       "stabilities": [
         "unstable"
       ],
@@ -349,13 +354,13 @@
       "description": "Distribute artifacts across OCI registries with ease",
       "install_id": "oras",
       "license": "Apache-2.0",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=8110df5ad7abf5d4c0f6fb0f8f978390e77f9685",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=4c1018dae018162ec878d42fec712642d214fdfa",
       "name": "oras-1.3.0",
       "pname": "oras",
-      "rev": "8110df5ad7abf5d4c0f6fb0f8f978390e77f9685",
-      "rev_count": 971119,
-      "rev_date": "2026-03-28T14:48:23Z",
-      "scrape_date": "2026-03-30T04:10:40.379385Z",
+      "rev": "4c1018dae018162ec878d42fec712642d214fdfa",
+      "rev_count": 977467,
+      "rev_date": "2026-04-09T04:48:10Z",
+      "scrape_date": "2026-04-11T06:35:43.522870Z",
       "stabilities": [
         "unstable"
       ],
@@ -378,13 +383,13 @@
       "description": "Distribute artifacts across OCI registries with ease",
       "install_id": "oras",
       "license": "Apache-2.0",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=8110df5ad7abf5d4c0f6fb0f8f978390e77f9685",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=4c1018dae018162ec878d42fec712642d214fdfa",
       "name": "oras-1.3.0",
       "pname": "oras",
-      "rev": "8110df5ad7abf5d4c0f6fb0f8f978390e77f9685",
-      "rev_count": 971119,
-      "rev_date": "2026-03-28T14:48:23Z",
-      "scrape_date": "2026-03-30T05:17:03.741616Z",
+      "rev": "4c1018dae018162ec878d42fec712642d214fdfa",
+      "rev_count": 977467,
+      "rev_date": "2026-04-09T04:48:10Z",
+      "scrape_date": "2026-04-11T07:40:00.020970Z",
       "stabilities": [
         "unstable"
       ],
@@ -402,12 +407,12 @@
     },
     {
       "install_id": "arconia-cli-flake",
-      "locked-url": "github:thomasvitale/arconia-cli-flake/13c04419b8eb3cd09dd0b7563fb596c16d7c1886?narHash=sha256-aAvE1uctpjZ9inZhY/In9cSR1RKQUv4p7NHo%2BWYi86c%3D",
+      "locked-url": "github:thomasvitale/arconia-cli-flake/66fffac2d39fbc553a804e0839696bd15563229c?narHash=sha256-aoC/dxFlT6Lc/0FEnEqv6THEb7XRUf1XV8XSGVjBQ0c%3D",
       "flake-description": "Arconia CLI",
       "locked-flake-attr-path": "packages.aarch64-darwin.default",
-      "derivation": "/nix/store/6kr25vjyciiwysmzh5zhfl6sjday1nkw-arconia-0.12.2.drv",
+      "derivation": "/nix/store/ir4f5xp4bxcqnhppx3cyyfykyp1l7w9a-arconia-0.14.0.drv",
       "outputs": {
-        "out": "/nix/store/raydcbmkfxckljvzz9x35f3ln8a3sp0d-arconia-0.12.2"
+        "out": "/nix/store/pnpqgk5bd7165rrb3j3b03041kyspama-arconia-0.14.0"
       },
       "output-names": [
         "out"
@@ -418,21 +423,21 @@
       "requested-outputs-to-install": [],
       "package-system": "aarch64-darwin",
       "system": "aarch64-darwin",
-      "name": "arconia-0.12.2",
+      "name": "arconia-0.14.0",
       "pname": "arconia",
-      "version": "0.12.2",
+      "version": "0.14.0",
       "broken": false,
       "unfree": false,
       "priority": 5
     },
     {
       "install_id": "arconia-cli-flake",
-      "locked-url": "github:thomasvitale/arconia-cli-flake/13c04419b8eb3cd09dd0b7563fb596c16d7c1886?narHash=sha256-aAvE1uctpjZ9inZhY/In9cSR1RKQUv4p7NHo%2BWYi86c%3D",
+      "locked-url": "github:thomasvitale/arconia-cli-flake/66fffac2d39fbc553a804e0839696bd15563229c?narHash=sha256-aoC/dxFlT6Lc/0FEnEqv6THEb7XRUf1XV8XSGVjBQ0c%3D",
       "flake-description": "Arconia CLI",
       "locked-flake-attr-path": "packages.aarch64-linux.default",
-      "derivation": "/nix/store/ndfd6wlx3r0xpjj9bjmdmws4ngkpsi0j-arconia-0.12.2.drv",
+      "derivation": "/nix/store/b3l68ky7ijh01zk609c5mfv5wm32h7xs-arconia-0.14.0.drv",
       "outputs": {
-        "out": "/nix/store/z04m5m71wxcpkzc9qcm9g6b4hb5s2dp9-arconia-0.12.2"
+        "out": "/nix/store/xzvapvbnv5qb8ccyvwm69v9gvi81v2x8-arconia-0.14.0"
       },
       "output-names": [
         "out"
@@ -443,21 +448,21 @@
       "requested-outputs-to-install": [],
       "package-system": "aarch64-linux",
       "system": "aarch64-linux",
-      "name": "arconia-0.12.2",
+      "name": "arconia-0.14.0",
       "pname": "arconia",
-      "version": "0.12.2",
+      "version": "0.14.0",
       "broken": false,
       "unfree": false,
       "priority": 5
     },
     {
       "install_id": "arconia-cli-flake",
-      "locked-url": "github:thomasvitale/arconia-cli-flake/13c04419b8eb3cd09dd0b7563fb596c16d7c1886?narHash=sha256-aAvE1uctpjZ9inZhY/In9cSR1RKQUv4p7NHo%2BWYi86c%3D",
+      "locked-url": "github:thomasvitale/arconia-cli-flake/66fffac2d39fbc553a804e0839696bd15563229c?narHash=sha256-aoC/dxFlT6Lc/0FEnEqv6THEb7XRUf1XV8XSGVjBQ0c%3D",
       "flake-description": "Arconia CLI",
       "locked-flake-attr-path": "packages.x86_64-linux.default",
-      "derivation": "/nix/store/2is8j6zj5vlmdkrdbqgb4s99nddz9blw-arconia-0.12.2.drv",
+      "derivation": "/nix/store/54b95lbyah36vm5fazjw22q4s1nqbpr2-arconia-0.14.0.drv",
       "outputs": {
-        "out": "/nix/store/1jhyrjcg3wvd9nb29d14g25pqqmq7ma4-arconia-0.12.2"
+        "out": "/nix/store/yi88ya555qc0hsj45f8mhcdp6kr8xs2z-arconia-0.14.0"
       },
       "output-names": [
         "out"
@@ -468,9 +473,9 @@
       "requested-outputs-to-install": [],
       "package-system": "x86_64-linux",
       "system": "x86_64-linux",
-      "name": "arconia-0.12.2",
+      "name": "arconia-0.14.0",
       "pname": "arconia",
-      "version": "0.12.2",
+      "version": "0.14.0",
       "broken": false,
       "unfree": false,
       "priority": 5

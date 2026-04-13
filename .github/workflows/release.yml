@@ -6,7 +6,7 @@ on:
 env:
   FLOX_DISABLE_METRICS: true
   REGISTRY: ghcr.io
-  VERSION: 0.0.3
+  VERSION: 0.0.1
 
 permissions:
   contents: read
