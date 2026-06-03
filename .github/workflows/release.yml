@@ -27,7 +27,7 @@ jobs:
           fetch-depth: 0
 
       - name: Install Flox
-        uses: flox/install-flox-action@c94e7e1ab56ae14fe98bae4fd84384fd135f0c2a # v2.4.0
+        uses: flox/install-flox-action@f6002ed63e483f134001de7b4b45be891e00b09f # v2.5.1
 
       - name: Login to Docker
         uses: docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121 # v4.1.0
