@@ -37,21 +37,21 @@ jobs:
           registry: ${{ env.REGISTRY }}
 
       - name: Build and publish Skills OCI artifacts
-        uses: flox/activate-action@7065dcbe5583b7b015f07a8ebd49d7266e3053e8 # v1.1.1
+        uses: flox/activate-action@6abc249840d01f0c59473f21ba74821564d320b7 # v2.0.0
         with:
           command: task skills:publish VERSION=${{ env.VERSION }}
 
       - name: Sign Skills OCI artifacts
-        uses: flox/activate-action@7065dcbe5583b7b015f07a8ebd49d7266e3053e8 # v1.1.1
+        uses: flox/activate-action@6abc249840d01f0c59473f21ba74821564d320b7 # v2.0.0
         with:
           command: task skills:sign VERSION=${{ env.VERSION }}
 
       - name: Build and publish Skills Collection OCI artifact
-        uses: flox/activate-action@7065dcbe5583b7b015f07a8ebd49d7266e3053e8 # v1.1.1
+        uses: flox/activate-action@6abc249840d01f0c59473f21ba74821564d320b7 # v2.0.0
         with:
           command: task collection:publish VERSION=${{ env.VERSION }}
 
       - name: Sign Skills Collection OCI artifact
-        uses: flox/activate-action@7065dcbe5583b7b015f07a8ebd49d7266e3053e8 # v1.1.1
+        uses: flox/activate-action@6abc249840d01f0c59473f21ba74821564d320b7 # v2.0.0
         with:
           command: task collection:sign VERSION=${{ env.VERSION }}
