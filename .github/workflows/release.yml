@@ -4,7 +4,6 @@ on:
   workflow_dispatch:
 
 env:
-  FLOX_DISABLE_METRICS: true
   REGISTRY: ghcr.io
   VERSION: 0.0.1
 
@@ -26,8 +25,19 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Install Flox
-        uses: flox/install-flox-action@1128abd73431089ab9d871c893b4e72a729354e1 # v2.6.0
+      - name: Install Nix
+        uses: cachix/install-nix-action@13d8dd58da0234aa297dedd986986ccb8e7f3e24 # v31.11.1
+
+      - name: Set up Cachix
+        uses: cachix/cachix-action@38b082610b782e7e93e209c35fd730d399dee866 # v17
+        with:
+          name: devenv
+
+      - name: Install devenv
+        run: nix profile add nixpkgs#devenv
+
+      - name: Build devenv shell
+        run: devenv test
 
       - name: Login to Docker
         uses: docker/login-action@dbcb813823bdd20940b903addbd779551569679f # v4.6.0
@@ -37,21 +47,17 @@ jobs:
           registry: ${{ env.REGISTRY }}
 
       - name: Build and publish Skills OCI artifacts
-        uses: flox/activate-action@7065dcbe5583b7b015f07a8ebd49d7266e3053e8 # v1.1.1
-        with:
-          command: task skills:publish VERSION=${{ env.VERSION }}
+        shell: devenv shell bash -- -e {0}
+        run: task skills:publish VERSION=${{ env.VERSION }}
 
       - name: Sign Skills OCI artifacts
-        uses: flox/activate-action@7065dcbe5583b7b015f07a8ebd49d7266e3053e8 # v1.1.1
-        with:
-          command: task skills:sign VERSION=${{ env.VERSION }}
+        shell: devenv shell bash -- -e {0}
+        run: task skills:sign VERSION=${{ env.VERSION }}
 
       - name: Build and publish Skills Collection OCI artifact
-        uses: flox/activate-action@7065dcbe5583b7b015f07a8ebd49d7266e3053e8 # v1.1.1
-        with:
-          command: task collection:publish VERSION=${{ env.VERSION }}
+        shell: devenv shell bash -- -e {0}
+        run: task collection:publish VERSION=${{ env.VERSION }}
 
       - name: Sign Skills Collection OCI artifact
-        uses: flox/activate-action@7065dcbe5583b7b015f07a8ebd49d7266e3053e8 # v1.1.1
-        with:
-          command: task collection:sign VERSION=${{ env.VERSION }}
+        shell: devenv shell bash -- -e {0}
+        run: task collection:sign VERSION=${{ env.VERSION }}

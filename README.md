@@ -122,6 +122,28 @@ The Arconia CLI documentation covers the full skills workflow in detail:
 - [Skills Collection commands](https://docs.arconia.io/arconia-cli/latest/skills/collection/)
 - [Agent Skills as OCI Artifacts](https://www.thomasvitale.com/agent-skills-as-oci-artifacts/)
 
+## 🤝&nbsp; Contributing
+
+### Activating the development environment
+
+This project uses [devenv](https://devenv.sh) to manage development environments. To get started, you need to install devenv and activate the environment for this project. The main benefit of using devenv is that it allows you to run the project in a consistent environment without needing to install all dependencies on your local machine.
+
+```shell
+devenv shell
+```
+
+When you're done with your work, you can deactivate the environment, and devenv will clean up all the packages and tools that were installed so that you won't have to worry about cluttering your system.
+
+```shell
+exit
+```
+
+### Publishing the Skills artifacts
+
+```shell
+task --list
+```
+
 ## 🛡️&nbsp; Security
 
 The security process for reporting vulnerabilities is described in [SECURITY.md](SECURITY.md).
